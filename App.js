@@ -39,17 +39,17 @@ function App() {
   
   return (
     <div>
-      <Router>
+      // <Router>
      
        
-            <Route exact path="/" element={<App/>}>           
-            </Route>
-            {/* <Route path="" element={<Contact/>}>
+      //       <Route exact path="/" element={<App/>}>           
+      //       </Route>
+      //       {/* <Route path="" element={<Contact/>}>
              
-            </Route> */}
+      //       </Route> */}
           
        
-      </Router> 
+      // </Router> 
 
       {/* tabs */}
       <img src="https://th.bing.com/th/id/R.3bb0cebcd343edf4aa56cf49b5ffc01e?rik=gn4849riOnBpng&pid=ImgRaw&r=0" width="30%" height="80px" align="left"></img>
