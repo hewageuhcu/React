@@ -28,6 +28,20 @@ function Contact() {
         </form>
       </div>
 
+
+      {/* forget password */}
+      <div >
+  <p><h4>Forget Password? Reset</h4></p>
+</div>
+<div class="form">
+        <form action="/submit_form" method="POST">
+          <label htmlFor="name">Name:</label>
+          <input type="text" id="name" name="userName" required /><br/><br/>
+          <label htmlFor="email">Email:</label>
+          <input type="text" id="email" name="emaild" required /><br/><br/>
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
       <div >
   <p><h4>Don't have an account yet? Create one!</h4></p>
 </div>
@@ -52,8 +66,8 @@ function Contact() {
           <input type="submit" value="Submit" />
         </form>
       </div>
-
-
+      {/* forget password */}
+      
       {/* footer */}
 
       <ul class="footer">
