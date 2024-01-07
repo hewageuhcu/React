@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './Login.css';
 import { BrowserRouter as Browser,Router,Route,Switch } from 'react-router-dom';
 
-function Contact() {
+function Login() {
     return (
       <div>
 
@@ -82,4 +82,4 @@ function Contact() {
   }
 
 
-export default Contact;
+export default Login;
