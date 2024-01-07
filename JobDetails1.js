@@ -51,7 +51,12 @@ function JobDetails1() {
   <div class="tabs"></div>
 <br/>
   
- 
+ <div class="column1">
+  <button type="submit" value="submit">Add a New Job</button>
+ </div>
+ <div class="column2">
+  <button type="submit" value="submit">Allocate Job</button>
+ </div>
 
 
         {/* footer */}
