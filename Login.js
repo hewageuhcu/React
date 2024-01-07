@@ -10,14 +10,16 @@ function Login() {
        <div class="tab-labels"></div>
 
        <div >
-  <p><h4>Sign in to your account</h4></p>
+  <p><h4><center>Sign in to your account</center></h4></p>
 </div>
        <div class="text">
         Sign in
        </div>
+<br/>
 
+       <div class="box">
 
-
+<div class="box-content">
 <div class="form">
         <form action="/submit_form" method="POST">
           <label htmlFor="name">Name:</label>
@@ -27,30 +29,22 @@ function Login() {
           <input type="submit" value="Submit" />
         </form>
       </div>
-
-
-      {/* forget password */}
-      <div >
-  <p><h4>Forget Password? Reset</h4></p>
-</div>
-<div class="form">
-        <form action="/submit_form" method="POST">
-          <label htmlFor="name">Name:</label>
-          <input type="text" id="name" name="userName" required /><br/><br/>
-          <label htmlFor="email">Email:</label>
-          <input type="text" id="email" name="emaild" required /><br/><br/>
-          <input type="submit" value="Submit" />
-        </form>
       </div>
-      <div >
-  <p><h4>Don't have an account yet? Create one!</h4></p>
-</div>
+      </div>
+      
 
+{/* create account */}
+
+<div >
+  <p><h4><center>Don't have an account yet? Create one!</center></h4></p>
+</div>
 <div class="text">
        Create Account
        </div>
-
-{/* create account */}
+       <br/>
+<div class="box1">
+<div class="box-content1">
+<div class="form">
        <div class="form">
         <form action="/submit_form" method="POST">
           <label htmlFor="name">Name:</label>
@@ -66,7 +60,27 @@ function Login() {
           <input type="submit" value="Submit" />
         </form>
       </div>
+      </div>
+      </div>
+      </div>
       {/* forget password */}
+      <div >
+  <p><h4><center>Forget Password? Reset</center></h4></p>
+</div>
+<div class="box">
+<div class="box-content">
+<div class="form"></div>
+<div class="form">
+        <form action="/submit_form" method="POST">
+          <label htmlFor="name">Name:</label>
+          <input type="text" id="name" name="userName" required /><br/><br/>
+          <label htmlFor="email">Email:</label>
+          <input type="text" id="email" name="emaild" required /><br/><br/>
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+      </div>
+      </div>
       
       {/* footer */}
 
