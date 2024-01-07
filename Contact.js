@@ -56,7 +56,7 @@ Sri Jayawardenepura Kotte,sri lanka.
  </div>
  <div class="column2">
  <p>
- www.arctic.lk
+<a href="www.arctic.lk"> www.arctic.lk</a>
  </p>
  </div>
  
